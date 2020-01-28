@@ -1,4 +1,4 @@
-cd kubernetes/
+```cd kubernetes/```
 
 launch cluster including control plain:
 https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#eks-create-cluster
