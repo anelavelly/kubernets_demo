@@ -7,7 +7,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#ek
 https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#eks-create-cluster
 
 4 Deploying an Nginx deployment:
-```cat nginx-deployment.yaml|k create -f -```
+```cat nginx-deployment.yaml|kubectl create -f -```
 
   * watch the pod while depeploying 
   ```kubectl get pod --watch```
