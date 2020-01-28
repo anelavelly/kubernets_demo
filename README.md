@@ -1,12 +1,12 @@
-1. ```cd kubernetes/```
+1 ```cd kubernetes/```
 
-2. launch cluster including control plain:
+2 launch cluster including control plain:
 https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#eks-create-cluster
 
-3. deploying dashboard:
+3 deploying dashboard:
 https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#eks-create-cluster
 
-4. Deploying an Nginx deployment:
+4 Deploying an Nginx deployment:
 ```cat nginx-deployment.yaml|k create -f -```
 
   * watch the pod while depeploying 
@@ -18,10 +18,10 @@ https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html#ek
   * exposing to a service:
   ```kubectl expose deployment nginx-deployment --port=80 --type LoadBalancer```
 
-5. demo of a pod logs:
+5 demo of a pod logs:
 ```kubectl create -f pod-log.yaml```
 
-6. Jenkins:
+6 Jenkins:
 https://8gwifi.org/docs/kube-jenkins.jsp
 
   * creating a persistent volume:
