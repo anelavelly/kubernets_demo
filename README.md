@@ -90,7 +90,7 @@ This cheat sheet can help get more understanding when we play around with these 
 services it's an abstract way of exposing a pod. It will let pods communicate with each other and load balance at the same time 
 
 * ClusterIP = Internal
-* Nodeport = Expternal (very rarely used)
+* Nodeport = External (very rarely used)
 * LoadBalancer= External
 
 if any pod is exposed with any of the service then any pod with in the cluster can communicate with the exposed pod
